@@ -1,5 +1,4 @@
 import os
-#by dec khanhnguyen9872
 try:
 	import requests,colorama,prettytable
 except:
