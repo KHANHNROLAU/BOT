@@ -9,6 +9,9 @@ os.system("clear")
 user = input("Username:")
 if user == 'login':
 	print("dung rui")
+	os.system("clear")
+	print(Fore.RED + "Bạn vui lòng không sửa tên file nếu sửa vài chức năng sẽ không hoạt động!" + Style.RESET_ALL)
+	time.sleep(10)
 else:
 	quit()
 os.system("clear")
@@ -30,9 +33,6 @@ elif rt == 'random':
 elif rt =='stop':
 	print("Stop succes!")
 	quit()
-elif rt =='vip1':
-	os.system("clear")
-	os.system("python vip1.py")
 elif rt =='sex':
 	print(Fore.YELLOW + "Link 1:https://vlxyz.tv/page/22/\nLink 2:https://sexdotz.com/phim-sex-hay/page/2/\nLink 3:https://web.sexnhanh.co/\nLink 4:https://hentaikhongche.net/\nLink 5:https://hentaimoi.com/" + Style.RESET_ALL)
 elif rt =='kick':
@@ -42,7 +42,7 @@ elif rt =='type':
 elif rt == 'zalo':
 	print(Fore.YELLOW + "https://zalo.me/g/ctukrh452" + Style.RESET_ALL)
 elif rt =='help':
-	print(Fore.CYAN + "Command:info\nrandom\nkick\nsex\nzalo\ntype\nvip1\nshow\nbot\nslot\nslot2\ntiktok\ninfo1\nmembery\nin4\nspam\nexit\nexit\ngame\nrank" + Style.RESET_ALL)
+	print(Fore.CYAN + "Command:info\nrandom\nkick\nsex\nzalo\ntype\nshow\nbot\nslot\nslot2\ntiktok\ninfo1\nmembery\nin4\nspam\nexit\nexit\ngame\nrank\nbuy\nremove\nremovebot" + Style.RESET_ALL)
 elif rt =='show':
 	print(Fore.YELLOW + "Vps:admin@v9376\nPassword:tcp472towifn" + Style.RESET_ALL)
 elif rt=='bot':
@@ -69,3 +69,16 @@ elif rt=='game':
 	os.system("python game.py")
 elif rt=='rank':
 	print(Fore.YELLOW + "Rank:Vip1" + Style.RESET_ALL)
+elif rt=='buy':
+	print(Fore.RED + "Ib zalo mua vip 2 hoặc user vip3" + Style.RESET_ALL)
+elif rt=='remove':
+	print(Fore.RED + "Đã xóa vip1!" + Style.RESET_ALL)
+	os.remove("vip1.py")
+elif rt=='removebot':
+	print(Fore.RED + "Bạn chắc chắn muốn xóa bot python?" + Style.RESET_ALL)
+	print(Fore.RED + "Tất file sẽ bị xóa đất nếu muốn xóa thì ghi xoa" + Style.RESET_ALL)
+elif rt =='xoa':
+	print('Toàn bộ dữ liệu đã bị xóa!')
+	os.remove('vip1.py')
+	os.remove('tiktok.py')
+	os.remove('botpy.py')
