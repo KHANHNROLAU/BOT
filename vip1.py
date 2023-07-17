@@ -9,9 +9,8 @@ os.system("clear")
 user = input("Username:")
 if user == 'login':
 	print("dung rui")
-	os.system("clear")
-	print(Fore.RED + "Bạn vui lòng không sửa tên file nếu sửa vài chức năng sẽ không hoạt động!" + Style.RESET_ALL)
-	time.sleep(10)
+	print(Fore.RED + "Bạn vui lòng khôbg sửa tên file nếu sửa vài chức năng sẽ không hoạt động!" + Style.RESET_ALL)
+	time.sleep(5)
 else:
 	quit()
 os.system("clear")
@@ -42,11 +41,13 @@ elif rt =='type':
 elif rt == 'zalo':
 	print(Fore.YELLOW + "https://zalo.me/g/ctukrh452" + Style.RESET_ALL)
 elif rt =='help':
-	print(Fore.CYAN + "Command:info\nrandom\nkick\nsex\nzalo\ntype\nshow\nbot\nslot\nslot2\ntiktok\ninfo1\nmembery\nin4\nspam\nexit\nexit\ngame\nrank\nbuy\nremove\nremovebot" + Style.RESET_ALL)
+	print(Fore.CYAN + "🌍Basic🌍" + Style.RESET_ALL)
+	print(Fore.CYAN + "🍑bot🍑" + Style.RESET_ALL)
+	print(Fore.CYAN + "💠guide💠" + Style.RESET_ALL)
 elif rt =='show':
 	print(Fore.YELLOW + "Vps:admin@v9376\nPassword:tcp472towifn" + Style.RESET_ALL)
 elif rt=='bot':
-	print(Fore.CYAN + "Bot day anh co dieu gi mun hoi?"+ Style.RESET_ALL)
+	print(Fore.CYAN + "Bot Đã bật"+ Style.RESET_ALL)
 elif rt=='slot':
 	print(Fore.YELLOW + "Link nhom ghi vo day" + Style.RESET)
 elif rt=='slot2':
@@ -82,3 +83,6 @@ elif rt =='xoa':
 	os.remove('vip1.py')
 	os.remove('tiktok.py')
 	os.remove('botpy.py')
+elif rt=='guide':
+	os.system("clear")
+	print("🍑Hướng dẫn tân thủ💠\n🦊Tiktok:Dùng để buff view tiktok bằng zefoy🐈\n🍑buy:Dùng để liên kết tới website để mua hoặc mua user vip2🌍\n🧀Rank:Kiểm tra vip🥥\n🌯xoa:Xóa dữ liệu bot🍅\n🌋remote:Xóa danh hiệu vip1🏔\n🌊game:chơi game random,gacha,tài xỉu.vv🗺\n🏡exit:Thoát bot⛩\n📁spam:Spam tin nhắn📣\n🥒in4:để giới thiệu trang cá nhân hay in4 của 1 ai đó🌺\n💮membery:Kiểm tra quyền của bạn🍁\n🌸random: random 1 số ngẫu nghiên🏵\n🥀info1:giố thiệu")
